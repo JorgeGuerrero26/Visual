@@ -1,0 +1,14 @@
+p{
+    background-color: green;
+}
+
+#imagen{
+    float: right;
+    width: 150px;
+    height: 150px;
+}
+
+.firma{
+    background-color: yellow;
+    float: right;
+}

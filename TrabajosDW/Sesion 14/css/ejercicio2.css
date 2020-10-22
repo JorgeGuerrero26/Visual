@@ -1,0 +1,24 @@
+main{
+width: 1200px;
+margin: auto;
+}
+
+header{
+background-color: chartreuse;
+
+}
+
+nav{
+background-color: green;
+float: left;
+width: 300px;
+}
+article{
+float:left;
+width: 880px;
+background-color: grey;
+}
+footer{
+background-color: blue;
+clear: both;
+}
