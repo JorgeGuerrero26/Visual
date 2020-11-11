@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <main>
+        <div id="oscar">
+            <img src="img/oscar.png" alt="oscar">
+        </div>
+        <div id="formulario">
+            <h1>Encuesta de cine: Nominadas al Oscar 2018</h1>
+            <form action="get" id="encuesta">
+                <fieldset form="encuesta">
+                    <legend>Datos personales</legend>
+                    <label id="txtNombre" for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="txtApellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido"><br>
+                    <label for="txtDni">DNI:</label>
+                    <input type="text" id="dni" name="dni"><br>
+                    <label for="txtEdad">Edad:</label><br>
+                    <input type="text" id="edad" name="edad"><br>
+                    <label for="txtSexo">Sexo:</label>
+                    <select name="sexo" id="sexo">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Mejor película</legend>
+                    <input type="radio" name="fmejorpelicula" id="fcbyn">
+                    <label for="fcbyn">Call Me By Your Name</label><br>
+                    <input type="radio" name="fmejorpelicula" id="fdunkerque">
+                    <label for="fdunkerque">Dunkerque</label><br>
+                    <input type="radio" name="fmejorpelicula" id="fdejamesalir">
+                    <label for="fdejamesalir">Déjame salir</label>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Seleccione las películas que no haya visto</legend>
+                    <input type="checkbox" name="fehi" id="fehi">
+                    <label for="fehi">El hilo invisible</label><br>
+                    <input type="checkbox" name="feimo" id="feimo">
+                    <label for="feimo">El instante más oscuro</label><br>
+                    <input type="checkbox" name="taala" id="taala">
+                    <label for="taala">Tres anuncios a las afueras</label><br>
+                    <input type="checkbox" name="lfda" id="lfda">
+                    <label for="lfda">La forma del agua</label><br>
+                    <input type="checkbox" name="ladybird" id="ladybird">
+                    <label for="ladybird">Lady Bird</label>
+                </fieldset>
+                <fieldset form="encuesta">
+                    <legend>Argumento de su película preferida</legend>
+                    <textarea name="argumento" id="argumento"></textarea>
+                </fieldset>
+                <input type="button" value="Borrar formulario">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

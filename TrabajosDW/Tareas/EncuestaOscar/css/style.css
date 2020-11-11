@@ -1,0 +1,38 @@
+/*Formulario*/
+h1{
+    color: green;
+}
+form{
+    background-color: lightgreen;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+form fieldset legend{
+    background-color: green;
+}
+form input[type="button"],
+form input[type="submit"]{
+    background-color: green;
+    color: white;
+}
+
+/*Posicionamiento*/
+#oscar, #formulario{
+    float: right;
+}
+#oscar{
+    width: 45%;
+}
+#formulario{
+    width: 50%;
+}
+
+#nombre,#apellido,#edad,#dni{
+float: right;
+margin-right: 50%;
+height: 15px;
+}
+
+img{
+    height: 700px;
+}
