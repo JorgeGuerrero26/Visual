@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/misestilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+
+
+   <div class="contenedor">
+
+    <header class="header">
+         
+         <h1>Carrito de compras</h1>                            
+    </header>
+    <main class="main">
+      <form class="detallas">
+        <span class="nombres">Nombre:</span>
+        <input class="nombres" type="text" placeholder="nombre" id="nombre">
+        <span class="cantidades">Cantidad: </span>
+        <input  class="cantidades" type="number" placeholder="cantidad" id="cantidad">
+        <span class="precios">Precio: </span>
+        <input class="precios" type="number" placeholder="precio" id="precio">
+        <span class="descripciones">Descripcion: </span>
+        <input class="descripciones" type="text" placeholder="descripcion" id="descripcion">
+    </form>
+
+    <div class="botones">
+      <button class="boton" type="button" onclick="agregarCarrito()"> Agregar al carrito</button>
+      <button class="boton" type="button" onclick="eliminarTodo()"> Eliminar</button>
+      <button class="boton" type="button" onclick=" actualizarDatos()">Actualizar</button>
+    </div>
+
+
+
+       <div class="tabla">        
+        <table  class="tablita" id="carrito">
+            <tr>
+              <th>Nombre</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+              <th>Descripcion</th>
+            </tr>                                      
+          </table>
+       </div>  
+     
+       <p id="totalCompra"> </p>
+
+      
+
+
+  </main>
+
+
+
+
+    <footer class="footer">
+
+        <div class="texto">
+            <p>jorge guerrero "todos los derechos reservados"</p>
+        </div>
+
+                
+    </footer>
+
+
+
+
+   </div> 
+    
+
+</body>
+</html>
